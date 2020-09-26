@@ -1,6 +1,9 @@
 package testcases;
 
 import org.testng.annotations.Test;
+
+import testcases.BaseTest;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;

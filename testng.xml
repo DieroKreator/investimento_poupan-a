@@ -4,27 +4,15 @@
 
 	<listeners>
 	<listener class-name="customListeners.Listeners"></listener>
+	<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 	</listeners>
 
 	<test name="Preenchimento dos Campos">
 		<classes>
-			<class name="testcases.TestCase1" />
+			<class name="testcases.PreencherFormularioTests" />
 			<class
 				name="InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest" />
 		</classes>
 	</test> <!-- Test -->
-	<test name="Validate title test">
-		<classes>
-			<class name="testcases.TestCase2" />
-			<class
-				name="InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest" />
-		</classes>
-	</test> <!-- Test -->
-	<test name="Dependency Test">
-		<classes>
-			<class name="testcases.TestCase3" />
-			<class
-				name="InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest" />
-		</classes>
-	</test> <!-- Test -->
+	
 </suite> <!-- Suite -->

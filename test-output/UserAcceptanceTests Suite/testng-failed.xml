@@ -3,16 +3,17 @@
 <suite name="Failed suite [UserAcceptanceTests Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="customListeners.Listeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
   </listeners>
-  <test thread-count="5" name="Validate title test(failed)">
+  <test thread-count="5" name="Preenchimento dos Campos(failed)">
     <classes>
-      <class name="testcases.TestCase2">
+      <class name="testcases.PreencherFormularioTests">
         <methods>
           <include name="tearDown"/>
-          <include name="validateTitles"/>
           <include name="setUp"/>
+          <include name="preencherCamposCorretamenteParaVerResultados"/>
         </methods>
-      </class> <!-- testcases.TestCase2 -->
+      </class> <!-- testcases.PreencherFormularioTests -->
     </classes>
-  </test> <!-- Validate title test(failed) -->
+  </test> <!-- Preenchimento dos Campos(failed) -->
 </suite> <!-- Failed suite [UserAcceptanceTests Suite] -->

@@ -9,25 +9,15 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">UserAcceptanceTests Suite</th></tr>
-<tr><td><a href="#t0">Preenchimento dos Campos</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Validate title test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Dependency Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">6</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">7</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">59</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Preenchimento dos Campos</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">31</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">UserAcceptanceTests Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Preenchimento dos Campos &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest</td><td><a href="#m0">shouldAnswerWithTrue</a></td><td rowspan="1">1600982234988</td><td rowspan="1">3</td></tr><tr class="passedodd"><td rowspan="2">testcases.TestCase1</td><td><a href="#m1">doLogin</a></td><td rowspan="1">1600982234983</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m2">doUserReg</a></td><td rowspan="1">1600982234971</td><td rowspan="1">6</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Validate title test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.TestCase2</td><td><a href="#m3">validateTitles</a></td><td rowspan="1">1600982235313</td><td rowspan="1">2</td></tr><tr><th colspan="4">Validate title test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest</td><td><a href="#m4">shouldAnswerWithTrue</a></td><td rowspan="1">1600982235318</td><td rowspan="1">1</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Dependency Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest</td><td><a href="#m5">shouldAnswerWithTrue</a></td><td rowspan="1">1600982235334</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="2">testcases.TestCase3</td><td><a href="#m6">doLogin</a></td><td rowspan="1">1600982235333</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m7">doUserReg</a></td><td rowspan="1">1600982235330</td><td rowspan="1">1</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">UserAcceptanceTests Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Preenchimento dos Campos &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.PreencherFormularioTests</td><td><a href="#m0">preencherCamposCorretamenteParaVerResultados</a></td><td rowspan="1">1601061987026</td><td rowspan="1">8</td></tr><tr><th colspan="4">Preenchimento dos Campos &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest</td><td><a href="#m1">shouldAnswerWithTrue</a></td><td rowspan="1">1601061987038</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>Preenchimento dos Campos</h2><h3 id="m0">InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest#shouldAnswerWithTrue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testcases.TestCase1#doLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testcases.TestCase1#doUserReg</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Validate title test</h2><h3 id="m3">testcases.TestCase2#validateTitles</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;Gmail.com&gt; but was:&lt;Yahoo.com&gt;
-	at testcases.TestCase2.validateTitles(TestCase2.java:19)
+<h2>Preenchimento dos Campos</h2><h3 id="m0">testcases.PreencherFormularioTests#preencherCamposCorretamenteParaVerResultados</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at Pages.SimuladorInvestimentoPoupançaPage.setValorAplicar(SimuladorInvestimentoPoupançaPage.java:26)
+	at testcases.PreencherFormularioTests.preencherCamposCorretamenteParaVerResultados(PreencherFormularioTests.java:17)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest#shouldAnswerWithTrue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Dependency Test</h2><h3 id="m5">InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest#shouldAnswerWithTrue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">testcases.TestCase3#doLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">testcases.TestCase3#doUserReg</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest#shouldAnswerWithTrue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

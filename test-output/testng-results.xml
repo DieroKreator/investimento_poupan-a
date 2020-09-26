@@ -1,64 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-24T18:17:14 BRT" name="UserAcceptanceTests Suite" finished-at="2020-09-24T18:17:15 BRT" duration-ms="386">
+  <suite started-at="2020-09-25T16:26:27 BRT" name="UserAcceptanceTests Suite" finished-at="2020-09-25T16:26:27 BRT" duration-ms="31">
     <groups>
     </groups>
-    <test started-at="2020-09-24T18:17:14 BRT" name="Preenchimento dos Campos" finished-at="2020-09-24T18:17:14 BRT" duration-ms="45">
+    <test started-at="2020-09-25T16:26:27 BRT" name="Preenchimento dos Campos" finished-at="2020-09-25T16:26:27 BRT" duration-ms="31">
       <class name="InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest">
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest@3a079870]" started-at="2020-09-24T18:17:14 BRT" name="shouldAnswerWithTrue" finished-at="2020-09-24T18:17:14 BRT" duration-ms="3" status="PASS">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest@10e41621]" started-at="2020-09-25T16:26:27 BRT" name="shouldAnswerWithTrue" finished-at="2020-09-25T16:26:27 BRT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
       </class> <!-- InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest -->
-      <class name="testcases.TestCase1">
-        <test-method is-config="true" signature="createDBConnection()[pri:0, instance:testcases.TestCase1@f2f2cc1]" started-at="2020-09-24T18:17:14 BRT" name="createDBConnection" finished-at="2020-09-24T18:17:14 BRT" duration-ms="0" status="PASS">
+      <class name="testcases.PreencherFormularioTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.PreencherFormularioTests@19bb07ed]" started-at="2020-09-25T16:26:24 BRT" name="setUp" finished-at="2020-09-25T16:26:27 BRT" duration-ms="2463" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createDBConnection -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@f2f2cc1]" started-at="2020-09-24T18:17:14 BRT" name="launchBrowser" finished-at="2020-09-24T18:17:14 BRT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase1@f2f2cc1]" started-at="2020-09-24T18:17:14 BRT" name="doUserReg" finished-at="2020-09-24T18:17:14 BRT" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doUserReg -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@f2f2cc1]" started-at="2020-09-24T18:17:14 BRT" name="closeBrowser" finished-at="2020-09-24T18:17:14 BRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.TestCase1@f2f2cc1]" started-at="2020-09-24T18:17:14 BRT" name="launchBrowser" finished-at="2020-09-24T18:17:14 BRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase1@f2f2cc1]" started-at="2020-09-24T18:17:14 BRT" name="doLogin" finished-at="2020-09-24T18:17:14 BRT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.TestCase1@f2f2cc1]" started-at="2020-09-24T18:17:14 BRT" name="closeBrowser" finished-at="2020-09-24T18:17:14 BRT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:testcases.TestCase1@f2f2cc1]" started-at="2020-09-24T18:17:14 BRT" name="closeDBConnection" finished-at="2020-09-24T18:17:14 BRT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDBConnection -->
-      </class> <!-- testcases.TestCase1 -->
-    </test> <!-- Preenchimento dos Campos -->
-    <test started-at="2020-09-24T18:17:15 BRT" name="Validate title test" finished-at="2020-09-24T18:17:15 BRT" duration-ms="8">
-      <class name="testcases.TestCase2">
-        <test-method signature="validateTitles()[pri:0, instance:testcases.TestCase2@501edcf1]" started-at="2020-09-24T18:17:15 BRT" name="validateTitles" finished-at="2020-09-24T18:17:15 BRT" duration-ms="2" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<Gmail.com> but was:<Yahoo.com>]]>
-            </message>
+        </test-method> <!-- setUp -->
+        <test-method signature="preencherCamposCorretamenteParaVerResultados()[pri:0, instance:testcases.PreencherFormularioTests@19bb07ed]" started-at="2020-09-25T16:26:27 BRT" name="preencherCamposCorretamenteParaVerResultados" finished-at="2020-09-25T16:26:27 BRT" duration-ms="8" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<Gmail.com> but was:<Yahoo.com>
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:82)
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:87)
-at testcases.TestCase2.validateTitles(TestCase2.java:19)
+              <![CDATA[java.lang.NullPointerException
+at Pages.SimuladorInvestimentoPoupançaPage.setValorAplicar(SimuladorInvestimentoPoupançaPage.java:26)
+at testcases.PreencherFormularioTests.preencherCamposCorretamenteParaVerResultados(PreencherFormularioTests.java:17)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,43 +53,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateTitles -->
-      </class> <!-- testcases.TestCase2 -->
-      <class name="InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest">
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest@78b729e6]" started-at="2020-09-24T18:17:15 BRT" name="shouldAnswerWithTrue" finished-at="2020-09-24T18:17:15 BRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldAnswerWithTrue -->
-      </class> <!-- InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest -->
-    </test> <!-- Validate title test -->
-    <test started-at="2020-09-24T18:17:15 BRT" name="Dependency Test" finished-at="2020-09-24T18:17:15 BRT" duration-ms="6">
-      <class name="testcases.TestCase3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TestCase3@7995092a]" started-at="2020-09-24T18:17:14 BRT" name="setUp" finished-at="2020-09-24T18:17:14 BRT" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="doUserReg()[pri:1, instance:testcases.TestCase3@7995092a]" started-at="2020-09-24T18:17:15 BRT" name="doUserReg" finished-at="2020-09-24T18:17:15 BRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doUserReg -->
-        <test-method signature="doLogin()[pri:2, instance:testcases.TestCase3@7995092a]" started-at="2020-09-24T18:17:15 BRT" name="doLogin" finished-at="2020-09-24T18:17:15 BRT" depends-on-methods="testcases.TestCase3.doUserReg" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TestCase3@7995092a]" started-at="2020-09-24T18:17:15 BRT" name="tearDown" finished-at="2020-09-24T18:17:15 BRT" duration-ms="0" status="PASS">
+        </test-method> <!-- preencherCamposCorretamenteParaVerResultados -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.PreencherFormularioTests@19bb07ed]" started-at="2020-09-25T16:26:27 BRT" name="tearDown" finished-at="2020-09-25T16:26:27 BRT" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TestCase3 -->
-      <class name="InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest">
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest@7fc2413d]" started-at="2020-09-24T18:17:15 BRT" name="shouldAnswerWithTrue" finished-at="2020-09-24T18:17:15 BRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldAnswerWithTrue -->
-      </class> <!-- InvestimentoPoupancaQA.DemomavenEclipseProject.AppTest -->
-    </test> <!-- Dependency Test -->
+      </class> <!-- testcases.PreencherFormularioTests -->
+    </test> <!-- Preenchimento dos Campos -->
   </suite> <!-- UserAcceptanceTests Suite -->
 </testng-results>
